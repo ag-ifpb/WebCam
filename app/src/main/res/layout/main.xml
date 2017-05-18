@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layout_container"
+        style="@style/defaultContainer"
+        android:background="@color/colorBackground">
+
+        <TextView
+            android:id="@+id/cam_menu"
+            style="@style/defaultMenu"
+            android:text="@string/start_camera_application"
+            android:textColor="@color/colorFontMain" />
+
+        <TextView
+            android:id="@+id/cam_description"
+            style="@style/defaultDescription"
+            android:text="@string/camera_application_description"
+            android:textColor="@color/colorDescription" />
+
+        <Button
+            android:id="@+id/cam_btn"
+            style="@style/defaultBtn"
+            android:background="@color/colorAccent"
+            android:text="@string/btn_start_camera"
+            android:textColor="@color/colorFontMain" />
+
+        <TextView
+            android:id="@+id/controller_menu"
+            style="@style/defaultMenu"
+            android:text="@string/start_controller_application"
+            android:textColor="@color/colorFontMain" />
+
+        <TextView
+            android:id="@+id/controller_description"
+            style="@style/defaultDescription"
+            android:text="@string/controller_application_description"
+            android:textColor="@color/colorDescription" />
+
+        <Button
+            android:id="@+id/controller_btn"
+            style="@style/defaultBtn"
+            android:background="@color/colorBlueTone"
+            android:text="@string/btn_start_controller"
+            android:textColor="@color/colorFontMain" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="font_default">20dp</dimen>
+    <dimen name="font_reduced">16dp</dimen>
+    
+    <dimen name="margin_default">40dp</dimen>
+    <dimen name="margin_min">10dp</dimen>
+    <dimen name="margin_med">20dp</dimen>
+</resources>

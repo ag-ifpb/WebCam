@@ -1,0 +1,70 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--<style name="ActionBarStyle" parent="@style/Widget.AppCompat.ActionBar.Solid">-->
+    <!--<item name="titleTextStyle">@style/TitleTextStyle</item>-->
+    <!--</style>-->
+
+    <!--<style name="TitleTextStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">-->
+    <!--<item name="android:textColor">@color/colorAccent</item>-->
+    <!--</style>-->
+
+    <style name="defaultDescription">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/font_reduced</item>
+        <item name="android:textStyle">italic</item>
+        <!--<item name="android:layout_marginBottom">@dimen/margin_min</item>-->
+    </style>
+
+    <style name="defaultMenu">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/font_default</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">@dimen/margin_med</item>
+        <item name="android:layout_marginBottom">@dimen/margin_min</item>
+    </style>
+
+    <style name="defaultBtn">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/font_default</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginLeft">@dimen/margin_default</item>
+        <item name="android:layout_marginRight">@dimen/margin_default</item>
+        <item name="android:layout_marginTop">@dimen/margin_med</item>
+        <item name="android:layout_marginBottom">@dimen/margin_med</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="defaultContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <!--<item name="android:background">@color/colorBackground</item>-->
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingLeft">@dimen/margin_med</item>
+        <item name="android:paddingRight">@dimen/margin_med</item>
+        <item name="android:paddingBottom">@dimen/margin_med</item>
+        <item name="android:paddingTop">@dimen/margin_med</item>
+        <!--<item name="tools:ignore">@UselessParent</item>-->
+    </style>
+
+    <style name="camId">
+        <item name="android:textColor">@color/colorFontYellow</item>
+        <item name="android:textSize">@dimen/font_default</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+</resources>

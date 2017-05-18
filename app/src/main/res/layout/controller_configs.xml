@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layout_container"
+        style="@style/defaultContainer"
+        android:background="@color/colorBackground">
+
+        <TextView
+            style="@style/defaultDescription"
+            android:text="@string/controller_config_description"
+            android:textColor="@color/colorFontMain" />
+
+        <EditText
+            android:id="@+id/cam_id_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_min"
+            android:layout_marginTop="@dimen/margin_min"
+            android:hint="Insira o código da WebCam"
+            android:inputType="textCapCharacters"
+            android:textAlignment="center"
+            android:textColor="@color/colorFontYellow"
+            android:textColorHint="@color/colorBlueTone" />
+
+        <Button
+            android:id="@+id/record_btn"
+            style="@style/defaultBtn"
+            android:background="@color/colorAccent"
+            android:text="@string/controller_config_record"
+            android:textColor="@color/colorFontMain" />
+
+        <Button
+            android:id="@+id/show_records"
+            style="@style/defaultBtn"
+            android:background="@color/colorYellowTone"
+            android:text="@string/controller_config_show_records"
+            android:textColor="@color/colorFontBlack" />
+
+        <Button
+            android:id="@+id/watch_live_btn"
+            style="@style/defaultBtn"
+            android:background="@color/colorGreenTone"
+            android:text="@string/controller_config_watch_live"
+            android:textColor="@color/colorFontBlack" />
+
+    </LinearLayout>
+
+</LinearLayout>
+

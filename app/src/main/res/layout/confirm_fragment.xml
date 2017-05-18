@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackgroundTransparent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="io.github.victorhsr.pdm.webcam.fragments.ConfirmFragment">
+
+    <LinearLayout
+        style="@style/defaultContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_med"
+        android:layout_marginRight="@dimen/margin_med"
+        android:background="@color/colorFontMain"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/margin_med">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_med"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin_min"
+                app:srcCompat="@drawable/ic_delete_black_24dp" />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/confirm_dialog_title"
+                android:textColor="@color/colorFontBlack"
+                android:textSize="@dimen/font_default" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_med"
+            android:text="Tem certeza que deseja excluir esta gravação?"
+            android:textAlignment="center"
+            android:textColor="@color/colorFontBlack" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/cancel_btn"
+                style="android:attr/buttonBarButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/colorFontMain"
+                android:text="Cancelar"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/confirm_btn"
+                style="android:attr/buttonBarButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/colorFontMain"
+                android:text="Confirmar" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
